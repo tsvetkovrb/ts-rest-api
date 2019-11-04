@@ -12,12 +12,23 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.2",
+    "@types/hapi__joi": "^16.0.2",
+    "@types/mongodb": "^3.3.8",
+    "@types/mongoose": "^5.5.28",
     "@types/node": "^12.12.5",
+    "dotenv": "^8.2.0",
     "nodemon": "^1.19.4",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "@hapi/joi": "^16.1.7",
+    "@types/bcrypt": "^3.0.0",
+    "@types/jsonwebtoken": "^8.3.5",
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7"
   }
 }
