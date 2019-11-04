@@ -3,12 +3,12 @@ import { isAuth } from '../utils/verifyToken';
 
 const router = Router();
 
-router.get(
-  '/',
-  isAuth,
-  (req: Request & { user?: {} }, res: Response, next: NextFunction) => {
-    res.json({ name: 'Verified', user: req.user });
-  },
-);
+interface IRequest extends Request {
+  user?: {};
+}
+
+router.get('/', isAuth, (req: IRequest, res: Response, next: NextFunction) => {
+  res.json({ name: 'Verified', user: req.user });
+});
 
 export { router as postsRouter };
