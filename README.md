@@ -1,1 +1,3 @@
-# RESTful API on typescript language with authentication using NoSQL mongodb database 
+# TypeSript RESTful API
+
+## Базовая реализация бэкенд приложения с возможностью регестрации и авторизации 
